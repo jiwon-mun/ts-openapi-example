@@ -1,0 +1,16 @@
+{
+  "name": "ts-openapi-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jiwon-mun/ts-openapi-example.git",
+  "author": "jiwon-mun <jw.mun@birdview.kr>",
+  "license": "MIT",
+  "dependencies": {
+    "@tanstack/react-query": "^4.24.9",
+    "axios": "^1.3.3",
+    "rapini": "^2.3.0"
+  },
+  "scripts": {
+    "codegen": "rapini react-query v4 -p ./openapi.yaml"
+  }
+}
